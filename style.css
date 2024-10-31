@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.content-one {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+/* qui ho messo delle misure per width ma credo sia sbagliato perché non è responsive */
+.left-side {
+    width: 400px;
+}
+
+img {
+    width: 400px;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
