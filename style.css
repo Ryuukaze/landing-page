@@ -107,6 +107,62 @@ img {
     height: 100px;
 }
 
+/* Non so se qui va bene il padding o c'è qualcosa che possa centrare tutta la sezione */
 .content-three {
     background-color: #E5E7EB;
+    padding: 48px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.content-four {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+    padding: 32px;
+    border-radius: 8px;
+    gap: 32px;
+}
+
+.cta-title, .cta-text {
+    color: #F9FAF8 ;
+}
+
+.cta-text {
+    font-weight: 200;
+}
+
+.register {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px;
+}
+
+.copyright {
+    color: #F9FAF8;
 }
